@@ -1,0 +1,29 @@
+*{
+   margin: 0;
+   padding: 0; 
+}
+body{
+    width: 100%;
+    background:black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 109vh;
+}
+.navbar{
+    height: 75px;
+    width: 1200px;
+    margin: auto;
+}
+.icon{
+    height: 70px;
+    width: 200px;
+    float: left;
+}
+.logo{
+    color: whitesmoke;
+    font-size: 35px;
+    font-family: sans-serif;
+    padding-left: 20px;
+    padding-top: 10px;
+    float: left;
+}
