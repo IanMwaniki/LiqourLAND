@@ -54,7 +54,7 @@ ul li a{
 ul li a:hover{
     color: #d2042d;
 }
-.search{
+/* .search{
     width: 330px;
     float: left;
     margin-left: 200px;
@@ -165,4 +165,4 @@ line-height: 30px;
     border-bottom: 1px solid red;
     border-top: none;
     border-right: none;
-    border-left: none;
+    border-left: none; */
