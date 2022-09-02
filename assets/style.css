@@ -215,3 +215,17 @@ line-height: 30px;
     padding-bottom: 10px;
     text-align: center ;
 }
+.icon a{
+    text-decoration: none;
+    color: #fafafa;
+}
+.icon ion-icon{
+    color: #fafafa;
+    font-size: 20px;
+    padding-left: 16px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+.icon ion-icon:hover{
+color: #00008b;
+}
