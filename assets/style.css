@@ -23,7 +23,146 @@ body{
     color: whitesmoke;
     font-size: 35px;
     font-family: sans-serif;
-    padding-left: 20px;
+    padding-left: 0px;
     padding-top: 10px;
     float: left;
 }
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+    margin-right: 40px;
+}
+ul{
+    float: left;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: #fafafa;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: #d2042d;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 200px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    border: 1px solid red ;
+    background: transparent;
+    font-size: 16px;
+    color: #fafafa;
+    border-right: none;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    margin-top: 10px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #fafafa;
+     border: 1px solid red;
+    margin-top: 10px;
+     color: black;
+     font-size: 15px;
+     border-bottom-right-radius: 5px;
+     border-top-right-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fafafa;
+    position: relative;
+}
+.content .par{
+padding-left: 20px;
+padding-bottom: 20px;
+font-family: Arial;
+letter-spacing: 1.2px;
+line-height: 30px;
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+
+}
+.content .cnt{
+    width: 200px;
+    height: 40px;
+    background: #d2042d;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+.content .cnt a{
+    text-decoration: none;
+    transition: 0.3s ease;
+    color: black;
+}
+.cnt:hover{
+    background-color: #fafafa;
+}
+.content span{
+    font-size: 60px;
+    color: #d2042d;
+}
+.form{
+    width: 250px;
+    height: 380px;
+    background: #d2042d;
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #fafafa;
+    font-size: 22px;
+    background-color: black;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid red;
+    border-top: none;
+    border-right: none;
+    border-left: none;
