@@ -137,7 +137,7 @@ line-height: 30px;
     font-size: 60px;
     color: #d2042d;
 }
-/* .form{
+ .form{
     width: 250px;
     height: 380px;
     background: #d2042d;
@@ -162,7 +162,41 @@ line-height: 30px;
     width: 240px;
     height: 35px;
     background: transparent;
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid black;
     border-top: none;
     border-right: none;
-    border-left: none; */
+    border-left: none; 
+    color: #fafafa;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: #fafafa;
+    font-family: Arial;
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: #000;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fafafa;
+    transition: 0.4s ease;
+}
+.btnn:hover{
+    background: #fafafa;
+    color: #000;
+}
+.btnn a{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
