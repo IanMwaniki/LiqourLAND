@@ -91,7 +91,7 @@ ul li a:hover{
 .srch:focus{
     outline: none;
 }
-/* .content{
+.content{
     width: 1200px;
     height: auto;
     margin: auto;
@@ -137,7 +137,7 @@ line-height: 30px;
     font-size: 60px;
     color: #d2042d;
 }
-.form{
+/* .form{
     width: 250px;
     height: 380px;
     background: #d2042d;
