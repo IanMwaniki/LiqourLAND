@@ -4,10 +4,10 @@
 }
 body{
     width: 100%;
-    background:black;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: url(https://c1.wallpaperflare.com/preview/341/858/411/whisky-angle-sawdust-smoke.jpg);
+    background-size: contain;
     height: 109vh;
+    background-repeat: round;
 }
 .navbar{
     height: 75px;
@@ -97,6 +97,8 @@ ul li a:hover{
     margin: auto;
     color: #fafafa;
     position: relative;
+    align-items: center;
+    justify-content: space-between;
 }
 .content .par{
 padding-left: 20px;
