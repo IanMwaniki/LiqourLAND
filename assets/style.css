@@ -50,6 +50,7 @@ ul li a{
     font-family: sans-serif;
     font-weight: bold;
     transition: 0.4s ease-in-out;
+    color: #fafafa;
 }
 ul li a:hover{
     color: #d2042d;
