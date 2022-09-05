@@ -629,3 +629,60 @@ background: #d2042d;
 #services .qua{
     color: #d2042d;
 }
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    font-family: sans-serif;
+    background-color: #000;
+    color:#ebebeb;
+}
+.cool h5{
+    font-size: 24px;
+    font-weight: 700;
+    color: #d2042d;
+}
+.other h5{
+    font-size: 24px;
+    font-weight: 700;
+    color: #d2042d;
+}
+.conta h5{
+    font-size: 24px;
+    font-weight: 700;
+    color: #d2042d;
+}
+
+/* API */
+.heading{
+    text-align: center;
+    color: #fafafa;
+    font-family: 'Times New Roman';
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 1.5rem;
+    font-size: 3rem;
+}
+.api{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: max-content;
+}
+.card{
+ width: 53%;
+ box-shadow: 0 0 4px 3px red;
+ padding: 1.5em;
+ text-align: center;
+ margin-bottom: 2em;
+}
+.title{
+    font-size: 1.3rem;
+}
+.category,.price{
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 1em;
+    font-size: 1.2rem;
+}
