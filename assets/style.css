@@ -597,7 +597,7 @@ background: #d2042d;
     background-attachment: fixed;
     padding-top: 50px;
     padding-bottom: 50px;
-    height: 50vh;
+    height: 90vh;
 } 
 #services h1{
     text-align: center;
@@ -625,4 +625,7 @@ background: #d2042d;
     color: #fafafa;
     font-size: 24px;
     font-weight: 400;
+}
+#services .qua{
+    color: #d2042d;
 }
